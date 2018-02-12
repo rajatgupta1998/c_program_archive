@@ -12,6 +12,7 @@ Sample Output:
 100
 */
 #include <stdio.h>
+#include <math.h>
 
 int main(void) {
     int var1,var2,var3;

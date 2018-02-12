@@ -1,3 +1,4 @@
+/*
 Take a base value and exponent as an input from user. Write a program to find the power of a given number.
 
 Sample Input:
@@ -9,7 +10,7 @@ Sample Input:
 Sample Output:
 
 100
-
+*/
 #include <stdio.h>
 
 int main(void) {

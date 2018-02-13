@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main () {
+
+int main (void) {
     int number, reverse = 0, remainder, store;
     printf("Please enter a number: \n");
     scanf("%d", &number);
@@ -15,4 +16,5 @@ int main () {
         printf("This is a palindrome");
     else    //If not, print the following:
         printf("This is not a palindrome\n");
+    return 0;
     }

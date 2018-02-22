@@ -1,0 +1,11 @@
+Name of the function is actually a pointer variable to the function and prints the address of the function. Symbol table is implemented like this.
+
+struct
+{
+   char *name;
+   int (*funcptr)();
+}
+symtab[] = {
+   "func", func,
+   "anotherfunc", anotherfunc,
+};
